@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background-color: #9ac4f8;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main_container {
+  width: 47vh;
+  /* min-height: 70vh; */
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+
+h2 {
+  margin: 1rem 0 1rem 0;
+}
+
+.container {
+  width: 45vh;
+  /* height: 60vh;
+  display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* border: 1px solid red; */
+}
+
+.input {
+  width: 98%;
+  outline: none;
+  margin-left: 0.75%;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+
+  font-size: 2rem;
+  text-align: right;
+}
+
+.Button_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  min-width: 3.5rem;
+  min-height: 2.6rem;
+  border: none;
+  border-radius: 47%;
+  box-sizing: border-box;
+  margin: 0.2rem;
+  font-size: 1.1rem;
+  border: 1px solid rgb(234, 233, 233);
+}
+
+.btn:active {
+  background-color: rgb(218, 221, 221);
+}
+
+.AC,
+.back,
+.invert,
+.divide,
+.multi,
+.minus,
+.plus {
+  color: royalblue;
+}
+
+.equal {
+  background-color: rgb(77, 77, 255);
+  color: white;
+}
+
+.point,
+.percentage {
+  font-weight: bold;
+}
+
+.invert {
+  font-size: large;
+}
